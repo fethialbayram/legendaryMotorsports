@@ -1,3 +1,71 @@
 .background-black {
     background-color: black;
 }
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-grey {
+    color: rgba(126, 115, 115, 0.767);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-45 {
+    font-size: 45px;
+}
+
+.font-times-new-roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-sans-serif {
+    font-family: sans-serif;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.move-100-top{
+    position: relative;
+
+    top: +200px;
+}
+
+.move-150-bottom{
+    position: relative;
+
+    bottom: -150px;
+}
+
+.move-450-bottom {
+
+    position: relative;
+
+    bottom: -450px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
