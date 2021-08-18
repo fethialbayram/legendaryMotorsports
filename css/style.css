@@ -56,16 +56,16 @@
 }
 
 
-.move-150-bottom { /* Mevcut konuma göre 150px aşağı taşır 
-    position: relative;  */
+.move-150-bottom { /* Mevcut konuma göre 150px aşağı taşır */
+    position: relative; 
 
     bottom: -150px;
 }
 
 
-.move-450-bottom { /* Mevcut konuma göre 450px aşağı taşır 
+.move-450-bottom { /* Mevcut konuma göre 450px aşağı taşır */
 
-    position: relative; */
+    position: relative;
 
     bottom: -450px;
 }
