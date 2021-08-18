@@ -1,54 +1,49 @@
 .background-black {
-    background-color: black;
+    background-color: black; /* arka planı siyah yapar */
 }
 
 .text-white {
-    color: #ffffff;
+    color: #ffffff; /* texti beyaz yapar */
 }
 
 .text-grey {
-    color: rgba(126, 115, 115, 0.767);
+    color: rgba(126, 115, 115, 0.767); /* texti gri yapar */
 }
 
 .text-center {
-    text-align: center;
+    text-align: center; /* texti sayfaya ortalar */
 }
 
 .font-size-15 {
-    font-size: 15px;
+    font-size: 15px; /* font size'ı 15px yapar */ 
 }
 
 .font-size-20 {
-    font-size: 20px;
+    font-size: 20px; /* font size'ı 20px yapar */
 }
 
 .font-size-30 {
-    font-size: 30px;
+    font-size: 30px; /* font size'ı 30px yapar */
 }
 
 .font-size-45 {
-    font-size: 45px;
+    font-size: 45px; /* font size'ı 45px yapar */
 }
 
 .font-times-new-roman{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* yazı fontunu Times New Roman yapar */
 }
 
 .font-sans-serif {
-    font-family: sans-serif;
+    font-family: sans-serif; /* yazı fontunu sans-serif yapar */
 }
 
 .font-italic {
-    font-style: italic;
+    font-style: italic; /* yazı stilini italic yapar */
 }
 
-.move-100-top{
-    position: relative;
 
-    top: +200px;
-}
-
-.move-150-bottom{
+.move-150-bottom {
     position: relative;
 
     bottom: -150px;
