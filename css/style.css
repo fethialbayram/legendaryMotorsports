@@ -55,6 +55,11 @@
     font-style: italic; 
 }
 
+.move-50-top {
+    position: relative;
+
+    top: +100px;
+}
 
 .move-150-bottom { /* Mevcut konuma göre 150px aşağı taşır */
     position: relative; 
@@ -68,6 +73,11 @@
     position: relative;
 
     bottom: -450px;
+}
+
+
+.display-inline { /* Bloğu inline yapar */
+    display: inline-block;
 }
 
 /********* ELEMENT SELECTORS *********/
