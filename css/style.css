@@ -1,66 +1,82 @@
-.background-black {
-    background-color: black; /* arka planı siyah yapar */
-}
 
-.text-white {
-    color: #ffffff; /* texti beyaz yapar */
-}
+/********** CLASSES *********/
 
-.text-grey {
-    color: rgba(126, 115, 115, 0.767); /* texti gri yapar */
-}
-
-.text-center {
-    text-align: center; /* texti sayfaya ortalar */
-}
-
-.font-size-15 {
-    font-size: 15px; /* font size'ı 15px yapar */ 
-}
-
-.font-size-20 {
-    font-size: 20px; /* font size'ı 20px yapar */
-}
-
-.font-size-30 {
-    font-size: 30px; /* font size'ı 30px yapar */
-}
-
-.font-size-45 {
-    font-size: 45px; /* font size'ı 45px yapar */
-}
-
-.font-times-new-roman{
-    font-family: 'Times New Roman', Times, serif; /* yazı fontunu Times New Roman yapar */
-}
-
-.font-sans-serif {
-    font-family: sans-serif; /* yazı fontunu sans-serif yapar */
-}
-
-.font-italic {
-    font-style: italic; /* yazı stilini italic yapar */
+.background-black { /* arka planı siyah yapar */
+    background-color: black; 
 }
 
 
-.move-150-bottom {
-    position: relative;
+.text-white { /* texti beyaz yapar */
+    color: #ffffff; 
+}
+
+
+.text-grey { /* texti gri yapar */
+    color: rgba(126, 115, 115, 0.767); 
+}
+
+
+.text-center { /* texti sayfaya ortalar */
+    text-align: center; 
+}
+
+
+.font-size-15 { /* font size'ı 15px yapar */
+    font-size: 15px;  
+}
+
+
+.font-size-20 { /* font size'ı 20px yapar */
+    font-size: 20px; 
+}
+
+
+.font-size-30 { /* font size'ı 30px yapar */
+    font-size: 30px; 
+}
+
+
+.font-size-45 { /* font size'ı 45px yapar */
+    font-size: 45px; 
+}
+
+
+.font-times-new-roman{ /* yazı fontunu Times New Roman yapar */
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+
+.font-sans-serif { /* yazı fontunu sans-serif yapar */
+    font-family: sans-serif; 
+}
+
+
+.font-italic { /* yazı stilini italic yapar */
+    font-style: italic; 
+}
+
+
+.move-150-bottom { /* Mevcut konuma göre 150px aşağı taşır 
+    position: relative;  */
 
     bottom: -150px;
 }
 
-.move-450-bottom {
 
-    position: relative;
+.move-450-bottom { /* Mevcut konuma göre 450px aşağı taşır 
+
+    position: relative; */
 
     bottom: -450px;
 }
 
-a {
-    text-decoration: none;
+/********* ELEMENT SELECTORS *********/
+
+a { /* anchor'un dekorasyonlarını kapatır ve textleri beyaz yapar */
+    text-decoration: none; 
     color: white;
 }
 
-ul {
-    list-style-type: none;
+ul { /* ul'deki bulletleri kaldırır */
+    list-style-type: none; 
 }
